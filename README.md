@@ -20,6 +20,10 @@ And then copy hsdis build file to the target folder in JDK.
 ```
 sudo cp build/macosx-amd64/hsdis-amd64.dylib /Library/Java/JavaVirtualMachines/jdk1.8.0_131.jdk/Contents/Home/jre/lib/server/
 ```
+Java11
+```
+sudo cp build/macosx-amd64/hsdis-amd64.dylib /Library/Java/JavaVirtualMachines/jdk-11.0.5.jdk/Contents/Home/lib/server
+```
 ### Linux
 ```
 sudo cp build/linux-amd64/hsdis-amd64.so /usr/lib/jvm/java-8-oracle/jre/lib/amd64/server/
